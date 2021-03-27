@@ -5,6 +5,8 @@
 'server' 디렉토리 : 배포 관련 파일  
 'data' 디렉토리: 크롤링한 데이터&전처리 완료 데이터, 분석 모델  
 
+[Server 실행 시 설치 모듈]   
+pip install flask   
 
 [Server 실행 시 설치 모듈]  
 pip install flask  
