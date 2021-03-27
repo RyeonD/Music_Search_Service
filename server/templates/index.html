@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static', filename='image/question.png') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <meta charset="utf-8">
+    <title>오늘 뭐 듣지?</title>
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="title">
+                <div class="text_content" id="h1">
+                    <h1>Search Music</h1>
+                </div>
+                <div class="text">
+                <div class="text_content">
+                    <div id="text1">[제목으로 노래 검색]</div>
+                    <div id="text2">노래 제목으로 가사가<br> 비슷한 노래들을 검색합니다.</div>
+                </div>
+                <div class="text_content">
+                    <div id="text1">[가사로 시대 검색]</div>
+                    <div id="text2">직접 작사한 가사를 입력하면<br> 어느 시대의 노래들과 비슷한지 알려줍니다.</div>
+                </div>
+            </div>
+                <!-- <img class="main_img" src="{{ url_for('static', filename='image/q.png') }}"> -->
+            </div>
+            <div class="search">
+                <input type="text" class="input_text" placeholder="제목 또는 가사를 입력하세요">
+                <div class="btn_box">
+                    <button class="title_btn">제목으로 노래 검색</button>
+                    <button class="lyrics_btn">가사로 시대 검색</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>KMR - 1조</br>
+        안상홍 이병건 김성한 김련경</p>
+    </footer>
+</body>
+<script src='/static/js/index.js'></script>
+</html>
+    
