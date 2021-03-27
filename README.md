@@ -9,10 +9,12 @@
 [Server 실행 시 설치 모듈]
 pip install flask
 
+
 [분석 파일 실행 시 설치 라이브러리]
+
 (가사 입력)
-pip install pickle      - text 이외의 자료형 파일을 저장하기 위한 모듈
-pip install keras       - python 딥러닝 라이브러리
+pip install pickle      - text 이외의 자료형 파일을 저장하기 위한 모듈  
+pip install keras       - python 딥러닝 라이브러리. 
 pip install tensorflow  - 데이터의 흐름을 프로그래밍 하기 위한 딥러닝 라이브러리(google)
 (제목 입력)
 pip install pandas      - 데이터 조작 및 분석을 위한 파이썬 패키지
