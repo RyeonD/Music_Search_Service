@@ -1,0 +1,2 @@
+ko.bin filter=lfs diff=lfs merge=lfs -text
+ko.tsv filter=lfs diff=lfs merge=lfs -text

@@ -6,7 +6,7 @@ import lyrics_anlytics as la
 import title_analyrics as title_analy
 app = Flask(__name__)
 
-# main page load
+# main page load 
 @app.route('/', methods=['GET'])
 def root():
     return render_template('index.html')
