@@ -1,0 +1,9 @@
+1960 filter=lfs diff=lfs merge=lfs -text
+1970 filter=lfs diff=lfs merge=lfs -text
+1980 filter=lfs diff=lfs merge=lfs -text
+1990 filter=lfs diff=lfs merge=lfs -text
+2000 filter=lfs diff=lfs merge=lfs -text
+lyrics2-model.hdf5 filter=lfs diff=lfs merge=lfs -text
+lyrics2.pickle filter=lfs diff=lfs merge=lfs -text
+2010 filter=lfs diff=lfs merge=lfs -text
+lyrics2-tfidf.dic filter=lfs diff=lfs merge=lfs -text
