@@ -26,8 +26,6 @@ window.onload = () => {
         }
         getSongByLyrics()
     });
-
-    
 }
 
 // 서버호출
