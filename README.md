@@ -1,3 +1,7 @@
+# Music Search Service
+가사 기반 음악 검색 서비스
+
+
 [flask 실행 방법]  
 'server' 디렉토리로 이동 -> python app.py 실행  
 
